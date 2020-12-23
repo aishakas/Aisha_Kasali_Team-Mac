@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Aisha/Desktop/Selenium_WebDriver/Single_Page_Approach/ChangeHRM_POM">
+        <classes>
+            <class name="Login.LoginTests">
+                <methods>
+                    <include name="testVerifyCompanyLogo"/>
+                    <include name="testVerifyForgotPassword"/>
+                    <include name="testVerifyLoginPanel"/>
+                    <include name="testVerifyPageTitle"/>
+                </methods>
+            </class>
+            <class name="setUp.setUpTests">
+                <methods>
+                    <include name="testsetUp"/>
+                </methods></class>
+        </classes>
+    </test>
+</suite>
